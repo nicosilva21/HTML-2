@@ -1,0 +1,109 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+    font-size:50px;
+}
+
+/* Class selector */
+.common {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+    position:absolute;
+    background-color:bisque;
+    border: solid 1px black;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    height: 100px;
+    padding-left:20px;
+    right: 5px;
+    z-index:2;
+}
+
+.navigation {
+    top: 111px;
+    left: 161px;
+    right:161px;
+    height: 30px;
+    padding-left: 50px;
+    z-index:1;
+}
+
+.leftmenu {
+    top: 152px;
+    left: 5px;
+    bottom: 50px;
+    width:150px;
+    z-index: 1;
+}
+
+.mainbody {
+    top: 152px;
+    left: 161px;
+    bottom: 50px;
+    right: 161px;
+    padding-left: 50px;
+    padding-top:0px;
+}
+
+.rightmenu {
+    top: 152px;
+    right: 5px;
+    bottom:50px;
+    width:150px;
+}
+
+.footer {
+    bottom:5px;
+    left:5px;
+    right:5px;
+    height:40px;
+    font-size:15px;
+    text-align: center;
+    position: fixed;
+
+}
+
+.subheader {
+    border: solid 1px black;
+    float: right;
+}
+.img {
+    position: absolute; /* Allow precise placement */
+    top: 5px; /* Distance from the top edge */
+    right: 10px; /* Distance from the right edge */
+    width: 5%; /* Adjust the width */
+    height: auto; /* Maintain the aspect ratio */
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #db921e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    background-color: white;
+}
